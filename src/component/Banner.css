@@ -1,0 +1,71 @@
+.banner-section{
+    background-image: url("https://disin-react.hibootstrap.com/images/page-banner1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    opacity: 0.9;
+    
+}
+
+.banner-section .container-fluid ,
+.banner-section .container-fluid .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    height: 100%;
+}
+
+.banner-section .container-fluid .banner-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+ 
+}
+/* 
+.banner-section .container-fluid .banner-text::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    filter: blur(3px);
+} */
+.banner-section .banner-text h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.banner-section .banner-text h3{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+.banner-section .banner-text h3 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    transition: all 300ms ease-in-out;
+}
+
+.banner-section .banner-text h3 a:hover{
+    color: #000;
+}

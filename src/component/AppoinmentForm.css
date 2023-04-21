@@ -1,0 +1,108 @@
+.appointment-form-box {
+  /* background-color: #fff; */
+  background-image: url("https://disin-react.hibootstrap.com/images/home-two/home-2-hart-shape.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.appointment-form-box > form {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding: 70px 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.appointment-form-box > form .form-text h3 {
+  color: #0046c0;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.appointment-form-box > form .form-text p {
+  color: #1b1b1b;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.appointment-form-box > form > .fields-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.appointment-form-box > form > .fields-layout > .field-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.appointment-form-box > form > .fields-layout > .field-layout > .form-field {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.appointment-form-box > form > .fields-layout > .field-layout svg {
+  font-size: 2.2rem;
+  color: #0046c0;
+  font-weight: 500;
+}
+
+.appointment-form-box > form > .fields-layout > .field-layout label {
+  font-weight: 600;
+  font-size: 1rem;
+  /* color: #232323; */
+  /* color: #c01616; */
+}
+
+.appointment-form-box > form > .fields-layout > .field-layout input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #0046c0;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.appointment-form-box > form > .fields-layout > .field-layout input:focus {
+  /* border: none; */
+  outline: none;
+}
+
+.appointment-form-box > form button {
+  background-color: #0046c0;
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin: 0px auto;
+  width: 165px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .appointment-form-box > form {
+
+    gap: 20px;
+    padding: 40px 10px;
+  }
+  .appointment-form-box > form > .fields-layout {
+   flex-direction: column;
+  }
+}

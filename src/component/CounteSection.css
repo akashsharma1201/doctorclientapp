@@ -1,0 +1,32 @@
+.count-section .counters-box{
+    background-image: url("https://disin-react.hibootstrap.com/images/map-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.counte-number-card svg{
+    font-size: 3.5rem;
+    color: #0046c0;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}
+
+.counte-number-card >h2{
+    font-size: 3rem;
+    font-weight: 600;
+    /* line-height: 1.6; */
+    color: #0046c0;
+    text-align: center;
+
+}
+
+.counte-number-card >h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #1f1f1f;
+    text-align: center;
+}

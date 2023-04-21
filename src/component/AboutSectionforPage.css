@@ -1,0 +1,47 @@
+.about-section-page {
+    background-color: #fff;
+}
+
+.about-section-page .text-area h3{
+    color: #000;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.about-section-page .text-area h5{
+    color: #434343;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+
+.about-section-page .text-area ul{
+    padding: 0px;
+}
+
+
+
+
+.about-section-page .text-area ul li{
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.about-section-page .text-area ul li svg{
+    color: #0033ff;
+    border: 2px solid #0033ff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+.about-section-page .text-area ul li span{
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+}

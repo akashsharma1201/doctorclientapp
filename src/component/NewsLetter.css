@@ -1,0 +1,66 @@
+.news-letter-section {
+  background-color: #fff;
+  padding: 90px 0px;
+}
+
+.news-letter-section .newsletter-bar {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.news-letter-section .newsletter-bar .news-letter-info h2 {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.news-letter-section .newsletter-bar .news-letter-info p {
+  color: #1c1c1c;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.news-letter-section .newsletter-bar form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #0d00ff;
+  border-radius: 15px;
+  padding: 3px;
+}
+
+.news-letter-section .newsletter-bar form div input {
+  width: 100%;
+  border: none;
+  padding: 20px 10px;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.news-letter-section .newsletter-bar form div input:focus {
+  outline: none;
+  border: none;
+}
+
+.news-letter-section .newsletter-bar form div button {
+  border: none;
+  padding: 20px 30px;
+  background-color: #0033ff;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+
+@media screen and (max-width:768px) {
+    .news-letter-section .newsletter-bar{
+        flex-direction: column;
+    }
+}
