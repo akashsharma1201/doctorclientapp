@@ -28,7 +28,8 @@ const RegisterUser = () => {
 
   const registerUserHandler = async () => {
     try {
-      const response = await axios.post("https://doctorserverapp.vercel.app/app/api/user/register", newUser)
+      // const response = await axios.post("https://doctorserverapp.vercel.app/app/api/user/register", newUser)
+      const response = await axios.post("http://localhost:5000/app/api/user/register", newUser)
       if(response.data.user){
         navigate("/login")
       }else{

@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { aboutSectionData } from './data';
 import { GiNurseMale } from "react-icons/gi";
+import { gsap } from 'gsap';
 import "./AboutSection.css";
 
+
 const AboutSection = () => {
+
+    const welcomeLeft = useRef()
+    console.log(welcomeLeft.current);
+
+    useEffect(() => {
+        gsap.from(welcomeLeft.current , {x:-100 ,opacity :1, duration : 1})
+    }, [])
     return (
         <div className='about-section-page py-5'>
             <div className='container-fluid'>
                 <div className='row py-5'>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6" ref={welcomeLeft}>
                         <div className='welcome-left'>
                             <img className='img-fluid' src='https://disin-react.hibootstrap.com/images/about3.jpg' alt='about' />
                         </div>

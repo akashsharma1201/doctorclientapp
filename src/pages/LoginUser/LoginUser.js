@@ -21,7 +21,7 @@ const LoginUser = () => {
 
   const loginUserHandler = async () => {
     try {
-      const response = await axios.post("https://doctorserverapp.vercel.app/app/api/user/login", loginUser)
+      const response = await axios.post("http://localhost:5000/app/api/user/login", loginUser)
 
       if(response.data){
         // console.log(response.data.data);

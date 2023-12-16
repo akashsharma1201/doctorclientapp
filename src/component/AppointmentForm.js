@@ -39,7 +39,7 @@ const AppointmentForm = () => {
 
     const appointmentHandler = async () => {
         try {
-            const response = await axios.post("https://doctorserverapp.vercel.app/app/api/appointment/bookappointment", newAppointment, config)
+            const response = await axios.post("http://localhost:5000/app/api/appointment/bookappointment", newAppointment, config)
             console.log("send booking", response);
         } catch (error) {
             console.log(error);
